@@ -1,0 +1,82 @@
+.carac {
+    margin-top: 500px;
+    text-align: center;
+}
+
+// .grafico {
+
+//     width: 250px;
+//     height: auto;
+// }
+
+.animation-element {
+    opacity: 0;
+    transition: all 500ms linear;
+    transform: translate3d(0px,20px,0px);
+    transition-delay: 0.5s;
+    position: relative;
+}
+
+.animation-element.in-view {
+    opacity: 1;
+    transform: translate3d(0px,0px,0px);
+}
+
+main {
+
+    text-align: center;
+
+    h3 {
+        font-family: $Raleway;
+        margin-top: 35px;
+    
+    }
+
+    p {
+        font-family: $OpenSans;
+        margin-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 0px;
+    }
+}
+
+section {
+    width: 100vw;
+}
+
+.prices {
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: $Raleway;
+    color: $White;
+    margin-bottom: 40px;
+}
+
+.cerro_fondo {
+    padding-top: 180px;
+    background-image: url(../img/bg-price.svg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.card1 {
+    background-color: $White;
+    height: 330px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.card2 {
+    background-color: $White;
+    height: 410px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 20px;
+}
+

@@ -1,0 +1,24 @@
+footer {
+    background-color: $RaisingBlack;
+    color: $White;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .legales {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    h6 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: $OpenSans;
+    }
+
+    h5 {
+        margin-bottom: 0px;
+        text-align: center;
+        font-family: $OpenSans;
+    }
+}

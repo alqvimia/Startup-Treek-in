@@ -1,0 +1,96 @@
+// Font family
+
+$OpenSans: 'Open Sans', sans-serif;
+
+$Raleway: 'Raleway', sans-serif;
+
+// Font weight
+
+$font-weight-regular: 400;
+
+$font-weight-Bold: 700;
+
+// Font sizes
+
+$xxxxx-large: 50px;
+
+$xxxx-large: 45px;
+
+$xxx-large: 40px;
+
+$xx-large: 35px;
+
+$x-large: 30px;
+
+$large: 20px;
+
+$medium: 16px;
+
+$small: 14px;
+
+$x-small: 12px;
+
+h1 {
+    font-family: $Raleway;
+    font-size: $xx-large;
+    font-weight: $font-weight-Bold;
+}
+
+p {
+    font-family: $OpenSans;
+
+}
+
+.carac {
+    font-family: $Raleway;
+    font-size: $x-large;
+}
+
+
+.card1 {
+
+    h6 {
+        font-family: $Raleway;
+        font-size: $medium;
+        font-weight: $font-weight-regular;
+    }
+
+    h3 {
+
+        font-family: $Raleway;
+        font-size: $x-large;
+        font-weight: $font-weight-Bold;
+
+    }
+
+    li {
+        font-family: $OpenSans;
+        
+    }
+
+
+} 
+
+.card2 {
+
+    h6 {
+        font-family: $Raleway;
+        font-size: $medium;
+        font-weight: $font-weight-regular;
+    }
+
+    h3 {
+
+        font-family: $Raleway;
+        font-size: $x-large;
+        font-weight: $font-weight-Bold;
+
+    }
+
+    li {
+        font-family: $OpenSans;
+    }
+
+
+} 
+

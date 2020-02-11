@@ -1,0 +1,392 @@
+body {
+  width: 100vw;
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 35px;
+  font-weight: 700; }
+
+p {
+  font-family: "Open Sans", sans-serif; }
+
+.carac {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px; }
+
+.card1 h6 {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400; }
+.card1 h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 700; }
+.card1 li {
+  font-family: "Open Sans", sans-serif; }
+
+.card2 h6 {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400; }
+.card2 h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 700; }
+.card2 li {
+  font-family: "Open Sans", sans-serif; }
+
+.luxbar-header {
+  width: 100%; }
+
+.luxbar-navigation {
+  background-color: #fff; }
+
+.luxbar-hamburger {
+  padding-left: 170px !important; }
+
+li, a {
+  color: #333745; }
+
+.luxbar-static {
+  box-shadow: none; }
+
+.nav__bg {
+  background-color: none !important;
+  color: none !important; }
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); }
+
+.d-none {
+  display: none; }
+
+.d-block {
+  display: block; }
+
+.col-12 {
+  grid-column: span 12; }
+
+.col-11 {
+  grid-column: span 11; }
+
+.col-10 {
+  grid-column: span 10; }
+
+.col-9 {
+  grid-column: span 9; }
+
+.col-8 {
+  grid-column: span 8; }
+
+.col-7 {
+  grid-column: span 7; }
+
+.col-6 {
+  grid-column: span 6; }
+
+.col-5 {
+  grid-column: span 5; }
+
+.col-4 {
+  grid-column: span 4; }
+
+.col-3 {
+  grid-column: span 3; }
+
+.col-2 {
+  grid-column: span 2; }
+
+.col-1 {
+  grid-column: span 1; }
+
+@media (min-width: 576px) {
+  .contenedor {
+    width: 540px; }
+
+  .d-sm-none {
+    display: none; }
+
+  .d-sm-block {
+    display: block; }
+
+  .col-sm-12 {
+    grid-column: span 12; }
+
+  .col-sm-11 {
+    grid-column: span 11; }
+
+  .col-sm-10 {
+    grid-column: span 10; }
+
+  .col-sm-9 {
+    grid-column: span 9; }
+
+  .col-sm-8 {
+    grid-column: span 8; }
+
+  .col-sm-7 {
+    grid-column: span 7; }
+
+  .col-sm-6 {
+    grid-column: span 6; }
+
+  .col-sm-5 {
+    grid-column: span 5; }
+
+  .col-sm-4 {
+    grid-column: span 4; }
+
+  .col-sm-3 {
+    grid-column: span 3; }
+
+  .col-sm-2 {
+    grid-column: span 2; }
+
+  .col-sm-1 {
+    grid-column: span 1; } }
+@media (min-width: 768px) {
+  .contenedor {
+    width: 750px; }
+
+  .d-md-none {
+    display: none; }
+
+  .d-md-block {
+    display: block; }
+
+  .col-md-11 {
+    grid-column: span 11; }
+
+  .col-md-10 {
+    grid-column: span 10; }
+
+  .col-md-9 {
+    grid-column: span 9; }
+
+  .col-md-8 {
+    grid-column: span 8; }
+
+  .col-md-7 {
+    grid-column: span 7; }
+
+  .col-md-6 {
+    grid-column: span 6; }
+
+  .col-md-5 {
+    grid-column: span 5; }
+
+  .col-md-4 {
+    grid-column: span 4; }
+
+  .col-md-3 {
+    grid-column: span 3; }
+
+  .col-md-2 {
+    grid-column: span 2; }
+
+  .col-md-1 {
+    grid-column: span 1; } }
+@media (min-width: 992px) {
+  .contenedor {
+    width: 970px; }
+
+  .d-lg-none {
+    display: none; }
+
+  .d-lg-block {
+    display: block; }
+
+  .col-lg-12 {
+    grid-column: span 12; }
+
+  .col-lg-11 {
+    grid-column: span 11; }
+
+  .col-lg-10 {
+    grid-column: span 10; }
+
+  .col-lg-9 {
+    grid-column: span 9; }
+
+  .col-lg-8 {
+    grid-column: span 8; }
+
+  .col-lg-7 {
+    grid-column: span 7; }
+
+  .col-lg-6 {
+    grid-column: span 6; }
+
+  .col-lg-5 {
+    grid-column: span 5; }
+
+  .col-lg-4 {
+    grid-column: span 4; }
+
+  .col-lg-3 {
+    grid-column: span 3; }
+
+  .col-lg-2 {
+    grid-column: span 2; }
+
+  .col-lg-1 {
+    grid-column: span 1; } }
+@media (min-width: 1200px) {
+  .contenedor {
+    width: 1170px; }
+
+  .d-xl-none {
+    display: none; }
+
+  .d-xl-block {
+    display: block; }
+
+  .col-xl-12 {
+    grid-column: span 12; }
+
+  .col-xl-11 {
+    grid-column: span 11; }
+
+  .col-xl-10 {
+    grid-column: span 10; }
+
+  .col-xl-9 {
+    grid-column: span 9; }
+
+  .col-xl-8 {
+    grid-column: span 8; }
+
+  .col-xl-7 {
+    grid-column: span 7; }
+
+  .col-xl-6 {
+    grid-column: span 6; }
+
+  .col-xl-5 {
+    grid-column: span 5; }
+
+  .col-xl-4 {
+    grid-column: span 4; }
+
+  .col-xl-3 {
+    grid-column: span 3; }
+
+  .col-xl-2 {
+    grid-column: span 2; }
+
+  .col-xl-1 {
+    grid-column: span 1; } }
+header {
+  width: 100vw; }
+
+.titulo {
+  margin-top: 90px; }
+
+.principal {
+  margin-left: 40px;
+  margin-right: 40px; }
+
+.img_fondo {
+  background-image: url(../img/bg-hero.svg);
+  background-size: cover;
+  background-position: bottom right;
+  width: 100%;
+  height: 450px;
+  position: absolute; }
+
+.carac {
+  margin-top: 500px;
+  text-align: center; }
+
+.animation-element {
+  opacity: 0;
+  transition: all 500ms linear;
+  transform: translate3d(0px, 20px, 0px);
+  transition-delay: 0.5s;
+  position: relative; }
+
+.animation-element.in-view {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px); }
+
+main {
+  text-align: center; }
+  main h3 {
+    font-family: "Raleway", sans-serif;
+    margin-top: 35px; }
+  main p {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px; }
+
+section {
+  width: 100vw; }
+
+.prices {
+  text-align: center;
+  margin-bottom: 0px;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  margin-bottom: 40px; }
+
+.cerro_fondo {
+  padding-top: 180px;
+  background-image: url(../img/bg-price.svg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-bottom: 40px; }
+
+.card1 {
+  background-color: #fff;
+  height: 330px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 20px;
+  margin-bottom: 30px; }
+
+.card2 {
+  background-color: #fff;
+  height: 410px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 20px; }
+
+footer {
+  background-color: #221d23;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  footer .legales {
+    display: flex;
+    justify-content: space-around; }
+  footer h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Open Sans", sans-serif; }
+  footer h5 {
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif; }
+
+.boton1free {
+  background-color: #2ab7ca;
+  color: #fff;
+  border: none;
+  width: 100%;
+  height: 40px; }
+
+.boton2free {
+  background-color: #2ab7ca;
+  color: #fff;
+  border: none;
+  width: 100%;
+  height: 40px; }
+
+/*# sourceMappingURL=style.css.map */
