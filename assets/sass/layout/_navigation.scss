@@ -13,7 +13,8 @@
 li , a {
 
     color: $Onix;
-
+    font-family: $OpenSans;
+    font-size: $x-small;
 }
 
 .luxbar-static {
@@ -24,3 +25,4 @@ li , a {
     background-color: none !important;
     color: none !important;
 }
+
