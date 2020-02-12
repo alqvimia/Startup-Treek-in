@@ -37,6 +37,13 @@ p {
 .card2 li {
   font-family: "Open Sans", sans-serif; }
 
+@media (min-width: 768px) {
+  .texto_graf h3 {
+    text-align: left;
+    margin-left: 30px; }
+  .texto_graf p {
+    font-size: 12px;
+    text-align: left; } }
 .luxbar-header {
   width: 100%; }
 
@@ -312,10 +319,14 @@ header {
   .img_fondo {
     height: 750px;
     position: relative;
-    top: -200px; } }
+    top: -250px; } }
 .carac {
   margin-top: 500px;
   text-align: center; }
+
+.grafico {
+  width: 250px;
+  height: auto; }
 
 .animation-element {
   opacity: 0;
@@ -376,7 +387,38 @@ section {
 
 @media (min-width: 768px) {
   .carac {
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  .graf_deskt {
+    display: flex; }
+
+  .relative {
+    height: 800px; }
+
+  .grafico {
+    margin-left: 310px;
+    margin-top: 70px; }
+
+  .texto_graf {
+    margin-top: 30px;
+    flex-direction: row;
+    width: 28%;
+    margin-left: 150px; }
+
+  .cartas {
+    display: flex;
+    justify-content: center; }
+    .cartas .card1 {
+      width: 250px;
+      flex-direction: row;
+      height: 360px; }
+    .cartas .card1 ul {
+      margin-top: 50px;
+      margin-bottom: 34px; }
+    .cartas .card2 {
+      width: 250px;
+      flex-direction: row;
+      height: 360px; } }
 footer {
   background-color: #221d23;
   color: #fff;
@@ -395,6 +437,20 @@ footer {
     font-family: "Open Sans", sans-serif;
     font-size: x-small; }
 
+@media (min-width: 768px) {
+  footer {
+    display: flex;
+    justify-content: space-around; }
+    footer .legales {
+      justify-content: flex-start;
+      margin-left: 0px;
+      max-width: 60%;
+      margin-right: 0; }
+    footer h6 {
+      margin-left: 30px; }
+    footer h5 {
+      text-align: right;
+      margin: 0; } }
 .boton1free {
   background-color: #2ab7ca;
   color: #fff;

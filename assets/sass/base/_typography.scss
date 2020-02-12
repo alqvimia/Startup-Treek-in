@@ -94,3 +94,20 @@ p {
 
 } 
 
+@media (min-width:768px) {
+
+    .texto_graf{
+        
+        h3 {
+            text-align: left;
+            margin-left: 30px;
+        }
+        
+        p{
+            font-size: $x-small;
+            text-align: left;
+        }    
+    }
+
+
+}
